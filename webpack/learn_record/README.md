@@ -124,3 +124,64 @@ url-loader会根据文件大小决定是否去调用file-loader处理
 ```
 方便加cdn
 ```
+
+
+
+
+
+# 第三天
+* 如何配置多页面应用
+```
+entry中配置json信息 
+output中filename : [name].js 
+插件HtmlWepbackPlugin配置多个,chunks选择插入的js
+```
+* 如何在html中指定引入某个js文件
+```
+chunks中指定
+```
+* source-map和eval-source-map区别
+```
+```
+* 如何时时编译打包出文件？
+
+```
+watch
+```
+* aggregateIimeout:500作用
+```
+防抖 操作完500毫秒后在编译
+```
+* bannerPlugin作用
+```
+在编译后的代码,加入注释
+```
+* webpack如何配置代理
+```
+devServer:{
+     proxy: {
+         //网络访问/api时
+         '/api': {
+             //访问此域名
+             target: 'http://localhost:3000',
+             //路径重写
+             pathRewrite: {
+                 // '/api' 重写为 ''
+                 '/api': ''
+             }
+         }
+     },
+}
+```
+* before函数中的app有什么作用
+```
+模拟数据返回 
+app.get('/user', (req, res) => res.json({name: '钩子,模拟数据'}))
+```
+* webpack-dev-middleware的作用
+```
+用node启动服务器时,可以启动webpack
+```
+
+
+

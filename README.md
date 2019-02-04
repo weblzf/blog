@@ -5,4 +5,4 @@
 * [TypeScript基础](/typescript-basis)
 * [Proxy](/proxy)
 * [webpack学习](/webpack/珠峰架构webpack视频学习记录)
-* [npm初次发布包](/npm)
+* [npm初次发布包](/npm/READNME.md)

@@ -1,0 +1,26 @@
+{
+    "name": "lzf-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "lzf-webpack": "./bin/lzf-webpack.js"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.19"
+    },
+    "dependencies": {
+        "@babel/generator": "^7.3.0",
+        "@babel/traverse": "^7.2.3",
+        "@babel/types": "^7.3.0",
+        "@types/tapable": "^1.0.4",
+        "babylon": "^6.18.0",
+        "ejs": "^2.6.1",
+        "tapable": "^1.1.1"
+    }
+}

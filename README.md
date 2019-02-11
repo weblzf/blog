@@ -6,3 +6,4 @@
 * [Proxy](/proxy)
 * [webpack学习](/webpack/珠峰架构webpack视频学习记录)
 * [npm初次发布包](/npm/READNME.md)
+* [飞机小游戏](http://www.liuzhifei.cn/aircraftBattle/index.html)(请在移动端访问)

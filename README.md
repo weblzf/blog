@@ -9,3 +9,4 @@
 * [飞机小游戏](http://www.liuzhifei.cn/aircraftBattle/index.html)(请在移动端访问)
 * [2048](http://www.liuzhifei.cn/game_2048/)(请在移动端访问)
 * [重学前端](/重学前端(winter)/READNME.md)
+* [JavaScript学习](/javascript)
